@@ -1,0 +1,21 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 940px; /* or 950px */
+}
+
+.hidden-input {
+  display: none;
+  margin-bottom: 20px;
+}
+.first-input{
+  margin-bottom: 20px;
+}
+
+body {
+  padding-top: 154px;
+}
+.anchor-pad {
+  padding-top: 70px;
+}
