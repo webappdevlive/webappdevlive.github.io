@@ -64,5 +64,7 @@ main () {
 }
 
 main
-
+git add .
+git commit -am 'updating site'
+git push
   
