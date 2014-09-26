@@ -53,6 +53,7 @@
         <a href="http://twitter.com/share" data-url="http://webappdevlive.com" data-text="Web App Dev Live" data-count="horizontal" data-via="webappdevlive" class="twitter-share-button"></a>
 
         <div class="g-plus" data-action="share" data-annotation="bubble" data-href="http://webappdevlive.com"></div>
+        <div class="fb-like" data-href="http://webappdevlive.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
         <br />
         <br />
         &copy; Mass Industries 2014 <br />
@@ -79,5 +80,13 @@
     ga('send', 'pageview');
 
     </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=428483837204969&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
